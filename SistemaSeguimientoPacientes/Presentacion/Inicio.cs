@@ -1,5 +1,7 @@
 ﻿using SistemaSeguimientoPacientes.Presentacion.Consultas;
+using SistemaSeguimientoPacientes.Presentacion.Doctores;
 using SistemaSeguimientoPacientes.Presentacion.Pacientes;
+using SistemaSeguimientoPacientes.Presentacion.Reporte;
 using SistemaSeguimientoPacientes.Presentacion.Tratamientos;
 using System;
 using System.Collections.Generic;
@@ -39,6 +41,27 @@ namespace SistemaSeguimientoPacientes
         private void btnTratamientos_Click(object sender, EventArgs e)
         {
             CUTratamientos frmPrueba = new CUTratamientos();
+            pnlContenedor.Controls.Clear();
+            frmPrueba.Dock = DockStyle.Fill;
+            pnlContenedor.Controls.Add(frmPrueba);
+        }
+
+        private void btnDoctores_Click(object sender, EventArgs e)
+        {
+            CUDoctores frmPrueba = new CUDoctores();
+            pnlContenedor.Controls.Clear();
+            frmPrueba.Dock = DockStyle.Fill;
+            pnlContenedor.Controls.Add(frmPrueba);
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnReporte_Click(object sender, EventArgs e)
+        {
+            CUReporte frmPrueba = new CUReporte();
             pnlContenedor.Controls.Clear();
             frmPrueba.Dock = DockStyle.Fill;
             pnlContenedor.Controls.Add(frmPrueba);

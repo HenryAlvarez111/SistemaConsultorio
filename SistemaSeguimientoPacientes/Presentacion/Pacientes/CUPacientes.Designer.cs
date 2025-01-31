@@ -73,6 +73,7 @@
             this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
             this.dtpFechaNacimiento.Size = new System.Drawing.Size(115, 26);
             this.dtpFechaNacimiento.TabIndex = 52;
+            this.dtpFechaNacimiento.Value = new System.DateTime(1990, 1, 1, 0, 0, 0, 0);
             // 
             // label4
             // 

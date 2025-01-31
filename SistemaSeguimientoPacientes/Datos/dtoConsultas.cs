@@ -13,5 +13,6 @@ namespace SistemaSeguimientoPacientes.Datos
         public int? IdTratamiento { get; set; }
         public DateTime FechaConsulta { get; set; }
         public string Observaciones { get; set; }
+        public int? IdDoctor { get; set; }
     }
 }

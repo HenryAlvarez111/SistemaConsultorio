@@ -36,27 +36,31 @@ namespace SistemaSeguimientoPacientes.Presentacion.Consultas
         {
             clsPacientes clsPacientes = new clsPacientes();
             clsTratamientos clsTratamientos = new clsTratamientos();
+            clsDoctores clsDoctores = new clsDoctores();
 
-            
-            cmbProveedor.DataSource = clsPacientes.LeerPacientes();
-            cmbProveedor.DisplayMember = "Nombre"; 
-            cmbProveedor.ValueMember = "IdPaciente";
+            cmbTratamiento.DataSource = clsPacientes.LeerPacientes();
+            cmbTratamiento.DisplayMember = "Nombre";
+            cmbTratamiento.ValueMember = "IdPaciente";
 
-            cmbProducto.DataSource = clsTratamientos.LeerTratamientos();
-            cmbProducto.DisplayMember = "NombreTratamiento"; 
-            cmbProducto.ValueMember = "IdTratamiento"; 
+            cmbPaciente.DataSource = clsTratamientos.LeerTratamientos();
+            cmbPaciente.DisplayMember = "NombreTratamiento";
+            cmbPaciente.ValueMember = "IdTratamiento";
+
+            cmbDoctor.DataSource = clsDoctores.ObtenerTodos();
+            cmbDoctor.DisplayMember = "Nombre"; 
+            cmbDoctor.ValueMember = "IdDoctor";
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             dtoConsultas nuevaConsulta = new dtoConsultas
             {
-                IdPaciente = (int)cmbProveedor.SelectedValue,
-                IdTratamiento = (int)cmbProducto.SelectedValue,
+                IdPaciente = (int)cmbTratamiento.SelectedValue,
+                IdTratamiento = (int)cmbPaciente.SelectedValue,
                 FechaConsulta = dtpFecha.Value,
-                Observaciones = txtCantidad.Text
+                Observaciones = txtObservacion.Text,
+                IdDoctor = (int)cmbDoctor.SelectedValue 
             };
-
             clsConsultas consultas = new clsConsultas();
             if (consultas.InsertarConsulta(nuevaConsulta))
             {
@@ -74,16 +78,15 @@ namespace SistemaSeguimientoPacientes.Presentacion.Consultas
             if (dgvData.SelectedRows.Count > 0)
             {
                 int idConsulta = (int)dgvData.SelectedRows[0].Cells["IdConsulta"].Value;
-
                 dtoConsultas consultaActualizada = new dtoConsultas
                 {
                     IdConsulta = idConsulta,
-                    IdPaciente = (int)cmbProveedor.SelectedValue,
-                    IdTratamiento = (int)cmbProducto.SelectedValue,
+                    IdPaciente = (int)cmbTratamiento.SelectedValue,
+                    IdTratamiento = (int)cmbPaciente.SelectedValue,
                     FechaConsulta = dtpFecha.Value,
-                    Observaciones = txtCantidad.Text
+                    Observaciones = txtObservacion.Text,
+                    IdDoctor = (int)cmbDoctor.SelectedValue
                 };
-
                 clsConsultas consultas = new clsConsultas();
                 if (consultas.ModificarConsulta(consultaActualizada))
                 {
@@ -129,10 +132,10 @@ namespace SistemaSeguimientoPacientes.Presentacion.Consultas
         }
         private void LimpiarCampos()
         {
-            cmbProveedor.SelectedIndex = -1; 
-            cmbProducto.SelectedIndex = -1;  
+            cmbTratamiento.SelectedIndex = -1; 
+            cmbPaciente.SelectedIndex = -1; cmbDoctor.SelectedIndex = -1;
             dtpFecha.Value = DateTime.Now;   
-            txtCantidad.Clear();             
+            txtObservacion.Clear();             
         }
         private void dgvData_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -140,11 +143,11 @@ namespace SistemaSeguimientoPacientes.Presentacion.Consultas
             {
                 btnActualizar.Enabled = true;
                 btnEliminar.Enabled = true;
-
-                cmbProveedor.SelectedValue = dgvData.SelectedRows[0].Cells["IdPaciente"].Value;
-                cmbProducto.SelectedValue = dgvData.SelectedRows[0].Cells["IdTratamiento"].Value;
+                cmbTratamiento.SelectedValue = dgvData.SelectedRows[0].Cells["IdPaciente"].Value;
+                cmbPaciente.SelectedValue = dgvData.SelectedRows[0].Cells["IdTratamiento"].Value;
                 dtpFecha.Value = (DateTime)dgvData.SelectedRows[0].Cells["FechaConsulta"].Value;
-                txtCantidad.Text = dgvData.SelectedRows[0].Cells["Observaciones"].Value.ToString();
+                txtObservacion.Text = dgvData.SelectedRows[0].Cells["Observaciones"].Value.ToString();
+                cmbDoctor.SelectedValue = dgvData.SelectedRows[0].Cells["IdDoctor"].Value; // Asignar el ID del doctor
             }
             else
             {

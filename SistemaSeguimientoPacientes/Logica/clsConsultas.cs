@@ -1,6 +1,7 @@
 ﻿using SistemaSeguimientoPacientes.Datos;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -15,14 +16,12 @@ namespace SistemaSeguimientoPacientes.Logica
         public List<dtoConsultas> LeerConsultas()
         {
             List<dtoConsultas> listaConsultas = new List<dtoConsultas>();
-            string consulta = "SELECT * FROM Consultas";
-
             using (SqlConnection con = conexion.Conectar())
             {
-                SqlCommand cmd = new SqlCommand(consulta, con);
+                SqlCommand cmd = new SqlCommand("sp_ObtenerConsultas", con);
+                cmd.CommandType = CommandType.StoredProcedure;
                 con.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
-
                 while (reader.Read())
                 {
                     listaConsultas.Add(new dtoConsultas
@@ -31,39 +30,42 @@ namespace SistemaSeguimientoPacientes.Logica
                         IdPaciente = (int)reader["IdPaciente"],
                         IdTratamiento = reader["IdTratamiento"] as int?,
                         FechaConsulta = (DateTime)reader["FechaConsulta"],
-                        Observaciones = reader["Observaciones"].ToString()
+                        Observaciones = reader["Observaciones"].ToString(),
+                        IdDoctor = reader["IdDoctor"] as int? // Añadir el ID del doctor
                     });
                 }
             }
             return listaConsultas;
         }
-
         public bool InsertarConsulta(dtoConsultas consultaObj)
         {
-            string consulta = "INSERT INTO Consultas (IdPaciente, IdTratamiento, FechaConsulta, Observaciones) VALUES (" +
-                              $"{consultaObj.IdPaciente}, {consultaObj.IdTratamiento}, '{consultaObj.FechaConsulta:yyyy-MM-dd HH:mm:ss}', " +
-                              $"'{consultaObj.Observaciones}')";
-
             using (SqlConnection con = conexion.Conectar())
             {
-                SqlCommand cmd = new SqlCommand(consulta, con);
+                SqlCommand cmd = new SqlCommand("sp_InsertarConsulta", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@IdPaciente", consultaObj.IdPaciente);
+                cmd.Parameters.AddWithValue("@IdTratamiento", consultaObj.IdTratamiento);
+                cmd.Parameters.AddWithValue("@FechaConsulta", consultaObj.FechaConsulta);
+                cmd.Parameters.AddWithValue("@Observaciones", consultaObj.Observaciones);
+                cmd.Parameters.AddWithValue("@IdDoctor", consultaObj.IdDoctor); // Añadir el ID del doctor
+
                 con.Open();
                 return cmd.ExecuteNonQuery() > 0;
             }
         }
-
         public bool ModificarConsulta(dtoConsultas consultaObj)
         {
-            string consulta = "UPDATE Consultas SET " +
-                              $"IdPaciente = {consultaObj.IdPaciente}, " +
-                              $"IdTratamiento = {consultaObj.IdTratamiento}, " +
-                              $"FechaConsulta = '{consultaObj.FechaConsulta:yyyy-MM-dd HH:mm:ss}', " +
-                              $"Observaciones = '{consultaObj.Observaciones}' " +
-                              $"WHERE IdConsulta = {consultaObj.IdConsulta}";
-
             using (SqlConnection con = conexion.Conectar())
             {
-                SqlCommand cmd = new SqlCommand(consulta, con);
+                SqlCommand cmd = new SqlCommand("sp_ActualizarConsulta", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@IdConsulta", consultaObj.IdConsulta);
+                cmd.Parameters.AddWithValue("@IdPaciente", consultaObj.IdPaciente);
+                cmd.Parameters.AddWithValue("@IdTratamiento", consultaObj.IdTratamiento);
+                cmd.Parameters.AddWithValue("@FechaConsulta", consultaObj.FechaConsulta);
+                cmd.Parameters.AddWithValue("@Observaciones", consultaObj.Observaciones);
+                cmd.Parameters.AddWithValue("@IdDoctor", consultaObj.IdDoctor); // Añadir el ID del doctor
+
                 con.Open();
                 return cmd.ExecuteNonQuery() > 0;
             }

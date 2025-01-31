@@ -1,12 +1,315 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|c:\\users\\alex2\\documents\\trabajos\\programacion\\c#\\henry\\sistemaconsultorio\\sistemaseguimientopacientes\\presentacion\\reporte\\cureporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|solutionrelative:sistemaseguimientopacientes\\presentacion\\reporte\\cureporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|c:\\users\\alex2\\documents\\trabajos\\programacion\\c#\\henry\\sistemaconsultorio\\sistemaseguimientopacientes\\presentacion\\reporte\\cureporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|solutionrelative:sistemaseguimientopacientes\\presentacion\\reporte\\cureporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|c:\\users\\alex2\\documents\\trabajos\\programacion\\c#\\henry\\sistemaconsultorio\\sistemaseguimientopacientes\\presentacion\\pacientes\\cupacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|solutionrelative:sistemaseguimientopacientes\\presentacion\\pacientes\\cupacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|c:\\users\\alex2\\documents\\trabajos\\programacion\\c#\\henry\\sistemaconsultorio\\sistemaseguimientopacientes\\datos\\datasetextractor.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|solutionrelative:sistemaseguimientopacientes\\datos\\datasetextractor.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|c:\\users\\alex2\\documents\\trabajos\\programacion\\c#\\henry\\sistemaconsultorio\\sistemaseguimientopacientes\\datos\\csconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|solutionrelative:sistemaseguimientopacientes\\datos\\csconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\sistemaseguimientopacientes\\presentacion\\doctores\\cudoctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|solutionrelative:sistemaseguimientopacientes\\presentacion\\doctores\\cudoctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\sistemaseguimientopacientes\\presentacion\\doctores\\cudoctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|solutionrelative:sistemaseguimientopacientes\\presentacion\\doctores\\cudoctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\sistemaseguimientopacientes\\presentacion\\pacientes\\cupacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|solutionrelative:sistemaseguimientopacientes\\presentacion\\pacientes\\cupacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\sistemaseguimientopacientes\\presentacion\\consultas\\cuconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|solutionrelative:sistemaseguimientopacientes\\presentacion\\consultas\\cuconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\sistemaseguimientopacientes\\presentacion\\consultas\\cuconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|solutionrelative:sistemaseguimientopacientes\\presentacion\\consultas\\cuconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\sistemaseguimientopacientes\\presentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|solutionrelative:sistemaseguimientopacientes\\presentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\sistemaseguimientopacientes\\presentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|solutionrelative:sistemaseguimientopacientes\\presentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|c:\\users\\alex2\\documents\\trabajos\\programacion\\c#\\henry\\sistemaconsultorio\\sistemaseguimientopacientes\\presentacion\\reporte\\informe.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|solutionrelative:sistemaseguimientopacientes\\presentacion\\reporte\\informe.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|c:\\users\\alex2\\documents\\trabajos\\programacion\\c#\\henry\\sistemaconsultorio\\sistemaseguimientopacientes\\logica\\clsdoctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|solutionrelative:sistemaseguimientopacientes\\logica\\clsdoctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\sistemaseguimientopacientes\\logica\\clspacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|solutionrelative:sistemaseguimientopacientes\\logica\\clspacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\sistemaseguimientopacientes\\logica\\clstratamientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|solutionrelative:sistemaseguimientopacientes\\logica\\clstratamientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\sistemaseguimientopacientes\\logica\\clsconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|solutionrelative:sistemaseguimientopacientes\\logica\\clsconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\sistemaseguimientopacientes\\datos\\dtoconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F23C77-C9B3-430E-B12C-74E936185C6D}|SistemaSeguimientoPacientes\\SistemaConsultorio.csproj|solutionrelative:sistemaseguimientopacientes\\datos\\dtoconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CUPacientes.cs",
+              "DocumentMoniker": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Pacientes\\CUPacientes.cs",
+              "RelativeDocumentMoniker": "SistemaSeguimientoPacientes\\Presentacion\\Pacientes\\CUPacientes.cs",
+              "ToolTip": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Pacientes\\CUPacientes.cs",
+              "RelativeToolTip": "SistemaSeguimientoPacientes\\Presentacion\\Pacientes\\CUPacientes.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAiwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T11:07:44.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CUConsultas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Consultas\\CUConsultas.cs",
+              "RelativeDocumentMoniker": "SistemaSeguimientoPacientes\\Presentacion\\Consultas\\CUConsultas.cs",
+              "ToolTip": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Consultas\\CUConsultas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaSeguimientoPacientes\\Presentacion\\Consultas\\CUConsultas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T10:16:52.311Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CUDoctores.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Doctores\\CUDoctores.cs",
+              "RelativeDocumentMoniker": "SistemaSeguimientoPacientes\\Presentacion\\Doctores\\CUDoctores.cs",
+              "ToolTip": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Doctores\\CUDoctores.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaSeguimientoPacientes\\Presentacion\\Doctores\\CUDoctores.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T10:07:54.9Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataSetExtractor.xsd",
+              "DocumentMoniker": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Datos\\DataSetExtractor.xsd",
+              "RelativeDocumentMoniker": "SistemaSeguimientoPacientes\\Datos\\DataSetExtractor.xsd",
+              "ToolTip": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Datos\\DataSetExtractor.xsd",
+              "RelativeToolTip": "SistemaSeguimientoPacientes\\Datos\\DataSetExtractor.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-01-31T10:39:06.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CUReporte.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Reporte\\CUReporte.cs",
+              "RelativeDocumentMoniker": "SistemaSeguimientoPacientes\\Presentacion\\Reporte\\CUReporte.cs",
+              "ToolTip": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Reporte\\CUReporte.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaSeguimientoPacientes\\Presentacion\\Reporte\\CUReporte.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T10:30:02.78Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CUReporte.cs",
+              "DocumentMoniker": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Reporte\\CUReporte.cs",
+              "RelativeDocumentMoniker": "SistemaSeguimientoPacientes\\Presentacion\\Reporte\\CUReporte.cs",
+              "ToolTip": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Reporte\\CUReporte.cs",
+              "RelativeToolTip": "SistemaSeguimientoPacientes\\Presentacion\\Reporte\\CUReporte.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAIA6wBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T10:41:49.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CUConsultas.cs",
+              "DocumentMoniker": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Consultas\\CUConsultas.cs",
+              "RelativeDocumentMoniker": "SistemaSeguimientoPacientes\\Presentacion\\Consultas\\CUConsultas.cs",
+              "ToolTip": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Consultas\\CUConsultas.cs",
+              "RelativeToolTip": "SistemaSeguimientoPacientes\\Presentacion\\Consultas\\CUConsultas.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAASwDcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T10:16:53.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "csConexion.cs",
+              "DocumentMoniker": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Datos\\csConexion.cs",
+              "RelativeDocumentMoniker": "SistemaSeguimientoPacientes\\Datos\\csConexion.cs",
+              "ToolTip": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Datos\\csConexion.cs",
+              "RelativeToolTip": "SistemaSeguimientoPacientes\\Datos\\csConexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T11:11:10.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CUDoctores.cs",
+              "DocumentMoniker": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Doctores\\CUDoctores.cs",
+              "RelativeDocumentMoniker": "SistemaSeguimientoPacientes\\Presentacion\\Doctores\\CUDoctores.cs",
+              "ToolTip": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Doctores\\CUDoctores.cs",
+              "RelativeToolTip": "SistemaSeguimientoPacientes\\Presentacion\\Doctores\\CUDoctores.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAIAwwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T10:07:58.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Inicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Inicio.cs",
+              "RelativeDocumentMoniker": "SistemaSeguimientoPacientes\\Presentacion\\Inicio.cs",
+              "ToolTip": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaSeguimientoPacientes\\Presentacion\\Inicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T10:25:44.828Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CUPacientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Pacientes\\CUPacientes.cs",
+              "RelativeDocumentMoniker": "SistemaSeguimientoPacientes\\Presentacion\\Pacientes\\CUPacientes.cs",
+              "ToolTip": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Pacientes\\CUPacientes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaSeguimientoPacientes\\Presentacion\\Pacientes\\CUPacientes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T10:28:32.707Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Inicio.cs",
+              "RelativeDocumentMoniker": "SistemaSeguimientoPacientes\\Presentacion\\Inicio.cs",
+              "ToolTip": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Inicio.cs",
+              "RelativeToolTip": "SistemaSeguimientoPacientes\\Presentacion\\Inicio.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAwD8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T10:28:16.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Informe.rdlc [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Reporte\\Informe.rdlc",
+              "RelativeDocumentMoniker": "SistemaSeguimientoPacientes\\Presentacion\\Reporte\\Informe.rdlc",
+              "ToolTip": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Presentacion\\Reporte\\Informe.rdlc [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaSeguimientoPacientes\\Presentacion\\Reporte\\Informe.rdlc [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2025-01-31T10:38:37.395Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "clsDoctores.cs",
+              "DocumentMoniker": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Logica\\clsDoctores.cs",
+              "RelativeDocumentMoniker": "SistemaSeguimientoPacientes\\Logica\\clsDoctores.cs",
+              "ToolTip": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Logica\\clsDoctores.cs",
+              "RelativeToolTip": "SistemaSeguimientoPacientes\\Logica\\clsDoctores.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T10:43:57.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "clsTratamientos.cs",
+              "DocumentMoniker": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Logica\\clsTratamientos.cs",
+              "RelativeDocumentMoniker": "SistemaSeguimientoPacientes\\Logica\\clsTratamientos.cs",
+              "ToolTip": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Logica\\clsTratamientos.cs",
+              "RelativeToolTip": "SistemaSeguimientoPacientes\\Logica\\clsTratamientos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T10:20:26.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "clsPacientes.cs",
+              "DocumentMoniker": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Logica\\clsPacientes.cs",
+              "RelativeDocumentMoniker": "SistemaSeguimientoPacientes\\Logica\\clsPacientes.cs",
+              "ToolTip": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Logica\\clsPacientes.cs",
+              "RelativeToolTip": "SistemaSeguimientoPacientes\\Logica\\clsPacientes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T10:28:29.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "dtoConsultas.cs",
+              "DocumentMoniker": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Datos\\dtoConsultas.cs",
+              "RelativeDocumentMoniker": "SistemaSeguimientoPacientes\\Datos\\dtoConsultas.cs",
+              "ToolTip": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Datos\\dtoConsultas.cs",
+              "RelativeToolTip": "SistemaSeguimientoPacientes\\Datos\\dtoConsultas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T10:16:12.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "clsConsultas.cs",
+              "DocumentMoniker": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Logica\\clsConsultas.cs",
+              "RelativeDocumentMoniker": "SistemaSeguimientoPacientes\\Logica\\clsConsultas.cs",
+              "ToolTip": "C:\\Users\\Alex2\\Documents\\Trabajos\\Programacion\\C#\\Henry\\SistemaConsultorio\\SistemaSeguimientoPacientes\\Logica\\clsConsultas.cs",
+              "RelativeToolTip": "SistemaSeguimientoPacientes\\Logica\\clsConsultas.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T10:11:56.669Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

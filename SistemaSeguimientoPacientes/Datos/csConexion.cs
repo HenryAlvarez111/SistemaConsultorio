@@ -13,7 +13,7 @@ namespace SistemaSeguimientoPacientes.Datos
 
         public csConexion()
         {
-            connectionString = "Server=.;Database=BDTratamientos;User Id=sa;Password=123456;";
+            connectionString = "Server=.;Database=BDConsultorio;User Id=sa;Password=123456;";
         }
 
         public SqlConnection Conectar()
