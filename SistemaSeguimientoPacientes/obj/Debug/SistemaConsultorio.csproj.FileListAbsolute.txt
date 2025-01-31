@@ -1,0 +1,13 @@
+C:\Users\Alex2\Documents\Trabajos\Programacion\C#\Henry\SistemaConsultorio\SistemaSeguimientoPacientes\bin\Debug\SistemaSeguimientoPacientes.exe.config
+C:\Users\Alex2\Documents\Trabajos\Programacion\C#\Henry\SistemaConsultorio\SistemaSeguimientoPacientes\bin\Debug\SistemaSeguimientoPacientes.exe
+C:\Users\Alex2\Documents\Trabajos\Programacion\C#\Henry\SistemaConsultorio\SistemaSeguimientoPacientes\bin\Debug\SistemaSeguimientoPacientes.pdb
+C:\Users\Alex2\Documents\Trabajos\Programacion\C#\Henry\SistemaConsultorio\SistemaSeguimientoPacientes\obj\Debug\SistemaConsultorio.csproj.AssemblyReference.cache
+C:\Users\Alex2\Documents\Trabajos\Programacion\C#\Henry\SistemaConsultorio\SistemaSeguimientoPacientes\obj\Debug\SistemaSeguimientoPacientes.Presentacion.Consultas.CUConsultas.resources
+C:\Users\Alex2\Documents\Trabajos\Programacion\C#\Henry\SistemaConsultorio\SistemaSeguimientoPacientes\obj\Debug\SistemaSeguimientoPacientes.Inicio.resources
+C:\Users\Alex2\Documents\Trabajos\Programacion\C#\Henry\SistemaConsultorio\SistemaSeguimientoPacientes\obj\Debug\SistemaSeguimientoPacientes.Presentacion.Pacientes.CUPacientes.resources
+C:\Users\Alex2\Documents\Trabajos\Programacion\C#\Henry\SistemaConsultorio\SistemaSeguimientoPacientes\obj\Debug\SistemaSeguimientoPacientes.Presentacion.Tratamientos.CUTratamientos.resources
+C:\Users\Alex2\Documents\Trabajos\Programacion\C#\Henry\SistemaConsultorio\SistemaSeguimientoPacientes\obj\Debug\SistemaSeguimientoPacientes.Properties.Resources.resources
+C:\Users\Alex2\Documents\Trabajos\Programacion\C#\Henry\SistemaConsultorio\SistemaSeguimientoPacientes\obj\Debug\SistemaConsultorio.csproj.GenerateResource.cache
+C:\Users\Alex2\Documents\Trabajos\Programacion\C#\Henry\SistemaConsultorio\SistemaSeguimientoPacientes\obj\Debug\SistemaConsultorio.csproj.CoreCompileInputs.cache
+C:\Users\Alex2\Documents\Trabajos\Programacion\C#\Henry\SistemaConsultorio\SistemaSeguimientoPacientes\obj\Debug\SistemaSeguimientoPacientes.exe
+C:\Users\Alex2\Documents\Trabajos\Programacion\C#\Henry\SistemaConsultorio\SistemaSeguimientoPacientes\obj\Debug\SistemaSeguimientoPacientes.pdb
